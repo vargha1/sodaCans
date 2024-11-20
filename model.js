@@ -223,7 +223,7 @@ function animate() {
     // Define the rotation speed
 
     // Calculate the rotation angles for each axis
-    console.log(camera.position);
+    // console.log(camera.position);
 
     scene.traverse(obj => {
         if (obj.name == "polySurface26Shape") {
